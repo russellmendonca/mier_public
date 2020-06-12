@@ -1,0 +1,20 @@
+{
+  "env_name": "ant-negated-joints",
+
+  "critic_nn_arch": "256-256",
+  "actor_nn_arch": "256-256",
+ 
+  "num_train_epochs": 600,
+  "num_tasks_sample": 5,
+  "initial_exploration_repeats": 5,
+  "num_sample_steps_prior": 400,
+  "num_sample_steps_updated_context":600,
+  "num_sample_steps_for_adaptation" : 200,
+
+  "num_training_steps_per_epoch": 1000,
+  "num_extra_fast_adapt_steps_for_model":0,
+ "n_train_tasks": 35,
+  "n_val_tasks": 35,
+  "eval_train_tasks": true,
+  "eval_val_tasks": true
+}

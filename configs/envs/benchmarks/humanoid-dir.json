@@ -1,0 +1,12 @@
+{
+  "env_name": "humanoid-dir",
+  "num_train_epochs": 200,
+  "initial_exploration_repeats": 1,
+  "num_sample_steps_prior": 400,
+  "num_sample_steps_updated_context":600,
+  "num_sample_steps_for_adaptation": 400,
+  "num_training_steps_per_epoch": 1000,
+  "n_train_tasks": 100,
+  "n_val_tasks": 30,
+  "eval_train_tasks": false
+}

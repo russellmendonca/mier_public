@@ -1,0 +1,13 @@
+{
+  "run_mode": "train",
+  "save_interval": 25,
+  "is_model_context_conditioned": true,
+  "joint_state_reward_model": true,
+
+  "model_hyperparams": {
+    "meta_train": true,
+    "is_deterministic": false,
+    "fast_adapt_lr":0.01,
+    "fast_adapt_steps":2
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "env_name": "cheetah-vel",
+  "env_params":{"task_set": "hard_OOD"},
+  "num_train_epochs": 400,
+  "initial_exploration_repeats": 5,
+  "num_sample_steps_prior": 400,
+  "num_sample_steps_updated_context": 600,
+  "num_sample_steps_for_adaptation" : 200,
+
+  "off_policy_relabelling":true,
+
+  "num_training_steps_per_epoch": 1000,
+  "n_train_tasks": 100,
+  "n_val_tasks": 30,
+  "eval_train_tasks": false
+}

@@ -1,0 +1,14 @@
+{
+  "env_name": "ant-dir", 
+  "num_train_epochs": 600,
+  "num_tasks_sample": 5,
+  "initial_exploration_repeats": 5,
+  "num_sample_steps_prior": 400,
+  "num_sample_steps_updated_context":600,
+  "num_sample_steps_for_adaptation":400,
+  "num_training_steps_per_epoch": 1000,
+  "n_train_tasks": 2,
+  "n_val_tasks": 0,
+  "eval_val_tasks": false
+
+}

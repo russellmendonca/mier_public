@@ -1,0 +1,14 @@
+{
+  "env_name": "cheetah-dir",
+  "num_train_epochs": 500,
+  "num_tasks_sample": 5,
+  "initial_exploration_repeats": 2,
+  "num_sample_steps_prior": 1000,
+  "num_sample_steps_updated_context":1000,
+  "num_sample_steps_for_adaptation":1000,
+
+  "num_training_steps_per_epoch":1000,
+  "n_train_tasks": 2,
+  "n_val_tasks": 0,
+  "eval_val_tasks": false
+}

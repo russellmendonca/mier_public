@@ -1,0 +1,24 @@
+{
+  "env_name": "ant-dir",
+  "env_params":{"task_mode": "ood"},
+
+  "critic_nn_arch": "256-256",
+  "actor_nn_arch": "256-256",
+  
+  "num_train_epochs": 600,
+  "num_tasks_sample": 5,
+  "initial_exploration_repeats": 5,
+  "num_sample_steps_prior": 400,
+  "num_sample_steps_updated_context":600,
+  "num_sample_steps_for_adaptation":400,
+  "num_training_steps_per_epoch": 1000,
+  "n_train_tasks": 100,
+  "n_val_tasks": 10,
+  "eval_val_tasks": true,
+
+  "off_policy_relabelling":true,
+  "num_sac_steps_per_epoch": 50,
+  "num_fast_adapt_steps_for_context": 20,
+  "num_extra_fast_adapt_steps_for_model":0
+
+}

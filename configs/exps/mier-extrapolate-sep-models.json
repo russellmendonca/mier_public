@@ -1,0 +1,30 @@
+{
+  "run_mode": "extrapolate",
+  "sac_version": "softlearning",
+  "num_extrapol_epochs": 10,
+
+  "num_sac_steps_per_epoch": 1000,
+  "num_fast_adapt_steps_for_context": 2,
+  "num_extra_fast_adapt_steps_for_model":100,
+
+  "save_interval": 10,
+
+  "is_model_context_conditioned": true,
+   "multi_task" : false,
+
+  "task_id_for_extrapolation":10,
+  "relabel_data_for_extrapolation":true,
+  "adapt_model_for_extrapolation":true,
+  "data_collection_freq_for_extrapolation": 100,
+
+  "joint_state_reward_model": false,
+  "meta_learn_state_dynamics": false,
+  "meta_learn_reward": false,
+
+  "model_hyperparams": {
+    "is_deterministic": false,
+    "fast_adapt_lr":0.01,
+    "fast_adapt_steps":2
+  }
+}
+
